@@ -16,4 +16,7 @@ public class HomeController{
         model.addAttribute("CityVariable", City);
         return "viewFlowers";
     }
+
+    public static class ThymeleafTourApplication {
+    }
 }
